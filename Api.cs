@@ -102,7 +102,7 @@ namespace cxapi
             {
                 string versionUrl = "https://raw.githubusercontent.com/cloudyExecutor/webb/refs/heads/main/cxapi.version";
                 string latestVersion = client.DownloadString(versionUrl).Trim();
-                string currentVersion = "1.1.5";
+                string currentVersion = "1.1.6";
 
                 if (latestVersion != currentVersion)
                 {
